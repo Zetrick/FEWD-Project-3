@@ -1,0 +1,55 @@
+/************ Base Styles *************/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+}
+
+select {
+    max-width: 200px;
+}
+
+/************ Class Styles *************/
+
+.logo {
+    text-align: center;
+    background: rgb(47,57,68);
+    width: 100%;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.label-input-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-info-label {
+    width: 100%;
+}
+
+
+#zip-code {
+    min-width: 80px;
+    max-width: 140px;
+}
+
+/************ Media Queries *************/
