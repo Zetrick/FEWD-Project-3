@@ -139,7 +139,7 @@ textarea {
 
 
 #zip-code {
-    max-width: 180px;
+    max-width: 50%;
 }
 
 .fieldset-divider {
@@ -199,6 +199,21 @@ footer {
     background: rgb(65,175,166);
     font-weight: bold;
     letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    opacity: 80%;
+    transition: .3s;
+}
+
+.signup-button:not(:hover) {
+    transition: .3s;
+}
+
+.signup-button:active {
+    opacity: 85%;
+    transition: none;
 }
 
 .width-90 {
@@ -221,6 +236,10 @@ footer {
 
     .contact-info-label {
         width: 150px;
+    }
+
+    #zip-code {
+        max-width: calc(25% - 37.5px);
     }
 
     
