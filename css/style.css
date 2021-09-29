@@ -128,15 +128,17 @@ textarea {
     font-size: .90em;
 }
 
-.contact-info-input::placeholder {
-    text-align: right;
-    margin-right: 10px;
-    padding-right: 5px;
+::placeholder {
     font-style: italic;
     font-size: small;
     color: rgba(71, 71, 71, 0.596);
 }
 
+.req-txt::placeholder {
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 5px;
+}
 
 #zip-code {
     max-width: 50%;
