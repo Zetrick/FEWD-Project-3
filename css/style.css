@@ -189,8 +189,8 @@ footer {
 
 .signup-button {
     margin: 40px auto 20px;
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    /* max-width: 600px; */
     height: 75px;
     border: none;
     border-radius: 4px;
@@ -239,7 +239,13 @@ footer {
     }
 
     #zip-code {
-        max-width: calc(25% - 37.5px);
+        /* This max-width code makes the zip code input 
+        25% of the size of the other input elements */
+        /* max-width: calc(25% - 37.5px); */
+
+        /* This max-width code makes the zip code input
+        25% of it's container's width */
+        max-width: 25%;
     }
 
     
